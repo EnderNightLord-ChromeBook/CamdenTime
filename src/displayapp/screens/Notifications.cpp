@@ -244,7 +244,7 @@ Notifications::NotificationItem::NotificationItem(const char* title,
       lv_obj_align(bt_accept, NULL, LV_ALIGN_IN_BOTTOM_LEFT, 0, 0);
       label_accept = lv_label_create(bt_accept, nullptr);
       lv_label_set_text(label_accept, Symbols::phone);
-      lv_obj_set_style_local_bg_color(bt_accept, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_GREEN);
+      lv_obj_set_style_local_bg_color(bt_accept, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_PURPLE);
 
       bt_reject = lv_btn_create(lv_scr_act(), nullptr);
       bt_reject->user_data = this;

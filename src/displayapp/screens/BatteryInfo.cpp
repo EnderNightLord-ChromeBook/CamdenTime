@@ -68,7 +68,7 @@ void BatteryInfo::Refresh() {
     lv_obj_set_style_local_bg_color(charging_bar, LV_BAR_PART_INDIC, LV_STATE_DEFAULT, LV_COLOR_YELLOW);
     lv_label_set_text_static(status, "Battery low");
   } else {
-    lv_obj_set_style_local_bg_color(charging_bar, LV_BAR_PART_INDIC, LV_STATE_DEFAULT, LV_COLOR_GREEN);
+    lv_obj_set_style_local_bg_color(charging_bar, LV_BAR_PART_INDIC, LV_STATE_DEFAULT, LV_COLOR_PURPLE);
     lv_label_set_text_static(status, "Discharging");
   }
 

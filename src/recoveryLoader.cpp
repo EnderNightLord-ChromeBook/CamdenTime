@@ -113,7 +113,7 @@ void Process(void* instance) {
     RefreshWatchdog();
   }
   NRF_LOG_INFO("Writing factory image done!");
-  DisplayProgressBar(100.0f, colorGreen);
+  DisplayProgressBar(100.0f, colorPurple);
 
   while (1) {
     asm("nop");

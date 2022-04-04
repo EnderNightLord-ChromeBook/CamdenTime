@@ -123,8 +123,8 @@ void SettingShakeThreshold::UpdateSelected(lv_obj_t* object, lv_event_t event) {
           vCalTime = xTaskGetTickCount();
           lv_label_set_text(calLabel, "Ready!");
           lv_obj_set_click(positionArc, false);
-          lv_obj_set_style_local_bg_color(calButton, LV_BTN_PART_MAIN, LV_STATE_CHECKED, LV_COLOR_GREEN);
-          lv_obj_set_style_local_bg_color(calButton, LV_BTN_PART_MAIN, LV_STATE_CHECKED, LV_COLOR_GREEN);
+          lv_obj_set_style_local_bg_color(calButton, LV_BTN_PART_MAIN, LV_STATE_CHECKED, LV_COLOR_PURPLE);
+          lv_obj_set_style_local_bg_color(calButton, LV_BTN_PART_MAIN, LV_STATE_CHECKED, LV_COLOR_PURPLE);
         } else if (lv_btn_get_state(calButton) == LV_BTN_STATE_RELEASED) {
           calibrating = 0;
           lv_obj_set_click(positionArc, true);

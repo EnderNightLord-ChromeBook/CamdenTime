@@ -88,6 +88,7 @@ namespace Pinetime {
       static constexpr uint16_t colorBlue = 0x0000ff;
       static constexpr uint16_t colorRed = 0xff00;
       static constexpr uint16_t colorRedSwapped = 0x00ff;
+      static constexpr uint16_t colorPurple = 0x780F;
       static constexpr uint16_t colorBlack = 0x0000;
       uint8_t displayBuffer[displayWidth * bytesPerPixel];
     };

@@ -64,7 +64,7 @@ void DisplayApp::Refresh() {
         }
         break;
       case Display::Messages::BleFirmwareUpdateStarted:
-        DisplayLogo(colorGreen);
+        DisplayLogo(colorPurple);
         break;
       default:
         break;
