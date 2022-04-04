@@ -77,17 +77,13 @@ std::unique_ptr<Screen> SystemInfo::CreateScreen1() {
   lv_obj_t* label = lv_label_create(lv_scr_act(), nullptr);
   lv_label_set_recolor(label, true);
   lv_label_set_text_fmt(label,
-                        "#FFFF00 InfiniTime#\n\n"
-                        "#444444 Version# %ld.%ld.%ld\n"
-                        "#444444 Short Ref# %s\n"
+                        "#CA2C92 Google Fuchsia#\n\n"
+                        "#4B0082 Pink + Purple!\n"
+                        "#444444 Version# F4.1.2\n"
                         "#444444 Build date#\n"
                         "%s\n"
                         "%s\n\n"
                         "#444444 Bootloader# %s",
-                        Version::Major(),
-                        Version::Minor(),
-                        Version::Patch(),
-                        Version::GitCommitHash(),
                         __DATE__,
                         __TIME__,
                         BootloaderVersion::VersionString());
